@@ -1,0 +1,48 @@
+
+
+
+header {
+  background-color: rgb(3, 174, 210);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px  10%;
+}
+
+header .logo1 img{
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+header .logo1{
+  cursor: pointer;
+}
+
+header  img:hover{
+  transform: scale(1.2);
+}
+
+.navbar{
+  list-style: none;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 0 20px;
+}
+.navbar li:hover{
+  transform: scale(1.1);
+}
+
+.navbar a{
+  font-size: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+  color: white;
+}
+

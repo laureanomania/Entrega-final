@@ -1,0 +1,844 @@
+header {
+  background-color: rgb(3, 174, 210);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+header .logo1 img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+header .logo1 {
+  cursor: pointer;
+}
+
+header img:hover {
+  transform: scale(1.2);
+}
+
+.navbar {
+  list-style: none;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navbar li:hover {
+  transform: scale(1.1);
+}
+
+.navbar a {
+  font-size: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: white;
+}
+
+body {
+  background-color: rgb(151, 231, 225);
+}
+
+.nav1 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+
+.tit3 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(77, 77, 77);
+  margin-top: 20px;
+}
+
+.tit5 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(77, 77, 77);
+  margin-top: 50px;
+}
+
+.texto1 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(77, 77, 77);
+}
+
+.figura {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+.figura2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+.figura3 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+.navfoot {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: rgb(77, 77, 77);
+  text-decoration: none;
+}
+
+.titulo {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: black;
+}
+
+.fdm {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  margin-top: 50px;
+}
+
+.fdm1 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.ender2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.delta2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.corexy2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.resina2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.fusionenpolvo2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 300;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.impresionenmetal2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 13px;
+}
+
+.paso1 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  margin-top: 20px;
+}
+
+.paso2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.pasoconimg1 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.pasonconimg3 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.pasoconimg5 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.escan4 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.escan3 {
+  background-color: rgb(58, 166, 185);
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.soporte5 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+.soporte2 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+.soporte9bis {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.soporte7 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.soporte11 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+.soporte14 {
+  text-align: center;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+
+form {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+}
+
+h2 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+.contact-form {
+  background-color: rgb(255, 158, 170);
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.pasoapaso2 {
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(77, 77, 77);
+  text-align: center;
+}
+
+.contercards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.tarjeta1 {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+}
+
+.tarjeta2 {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+}
+
+.tarjeta3 {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+}
+
+.tarjeta1 img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.tarjeta2 img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.tarjeta3 img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+}
+
+.tarjeta1 img:hover {
+  transform: scale(1.1);
+}
+
+.tarjeta2 img:hover {
+  transform: scale(1.1);
+}
+
+.tarjeta3 img:hover {
+  transform: scale(1.1);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.ender {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.delta {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.corexy {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.ender img {
+  width: 60%;
+  height: auto;
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.delta img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.corexy img {
+  width: 60%;
+  height: auto;
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.ender:hover {
+  background-color: rgb(3, 174, 210);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.delta:hover {
+  background-color: rgb(179, 226, 167);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.corexy:hover {
+  background-color: rgb(138, 205, 215);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.resina {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.fusionpolvo {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.impresionmetal {
+  width: 325px;
+  background-color: rgb(254, 239, 173);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px black;
+  margin: 20px;
+  transition: all 400ms ease;
+}
+
+.resina img {
+  width: 60%;
+  height: auto;
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.fusionpolvo img {
+  width: 60%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.3s;
+}
+
+.impresionmetal img {
+  width: 100%;
+  height: auto;
+  transition: all 0.3s;
+  display: block;
+  margin: 0 auto;
+}
+
+.resina:hover {
+  box-shadow: 5px 5px 20px rgb(255, 144, 188);
+  transform: translateY(-3%);
+}
+
+.fusionpolvo:hover {
+  box-shadow: 5px 5px 20px rgb(116, 105, 182);
+  transform: translateY(-3%);
+}
+
+.impresionmetal:hover {
+  box-shadow: 5px 5px 20px rgb(176, 97, 97);
+  transform: translateY(-3%);
+}
+
+.contact-form {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  grid-column: span 2;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+.mk4 {
+  width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 5%;
+  height: auto;
+}
+
+.paso3 {
+  width: 30%;
+  height: auto;
+  border-radius: 40px;
+  transition: all 400ms ease;
+  margin: 50px;
+}
+
+.paso {
+  text-align: center;
+}
+
+.paso3:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 20px rgb(255, 219, 0);
+}
+
+.pasconimg11 {
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.pasoconimg2 {
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.pasonconimg4 {
+  width: 40%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.flex1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.soporte3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.soporte4 {
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.soporte4bis {
+  width: 30%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.soporte9 {
+  width: 40%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.soporte10bis {
+  width: 40%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.soporte13 {
+  width: 40%;
+  height: auto;
+  margin: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+footer {
+  background-color: rgb(253, 222, 85);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+header .logo1 img {
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+}
+
+header .titulo {
+  cursor: pointer;
+}
+
+header .titulo:hover {
+  transform: scale(1.2);
+}
+
+.navfoot {
+  list-style: none;
+}
+
+.navfoot li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.navfoot li:hover {
+  transform: scale(1.1);
+}
+
+.navfoot a {
+  font-size: 700;
+  color: black;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.magna1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.resinadelta {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.escan1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav1 {
+    font-size: 11px;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .soporte5 {
+    font-size: 12px;
+  }
+  .soporte7 {
+    font-size: 12px;
+  }
+  .soporte9bis {
+    font-size: 12px;
+  }
+  .soporte11 {
+    font-size: 12px;
+  }
+  .soporte14 {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

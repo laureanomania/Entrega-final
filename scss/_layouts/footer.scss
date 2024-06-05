@@ -1,0 +1,38 @@
+footer{
+    background-color: rgb(253, 222, 85);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px  10%;
+    
+}
+
+header .logo1 img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+header .titulo{
+    cursor: pointer;
+}
+header  .titulo:hover{
+    transform: scale(1.2);
+}
+.navfoot{
+    list-style: none;
+}
+.navfoot li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.navfoot li:hover{
+    transform: scale(1.1);
+}
+
+.navfoot a{
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+  }
+

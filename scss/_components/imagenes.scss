@@ -1,0 +1,143 @@
+.mk4 {
+    width: 100%;
+    height: auto;
+
+}
+
+.logo {
+    width: 5%;
+    height: auto;
+}
+
+.paso3{
+    width: 30%;
+    height: auto;
+    border-radius: 40px;
+    transition: all 400ms ease;
+    margin: 50px;
+}
+.paso{
+    text-align: center;
+}
+
+.paso3:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px rgb(255, 219, 0);
+}
+
+.pasconimg11{
+    width: 30%;
+    height: auto;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+.pasoconimg2{
+    width: 30%;
+    height: auto;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+.pasonconimg4{
+    width: 40%;
+    height: auto;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px rgb(58, 166, 185);
+}
+
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    grid-gap: 10px; 
+    }
+
+    .gallery img {
+        width: 100%; 
+        height: 150px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+        
+    }
+    .soporte3{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .soporte6{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .soporte8{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .soporte10{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .soporte12{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .soporte4{
+        width: 30%;
+        height: auto;
+        margin: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 15px rgb(58, 166, 185);
+    }
+    .soporte4bis{
+        width: 30%;
+        height: auto;
+        margin: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 15px rgb(58, 166, 185);
+    }
+    .soporte9{
+        width: 40%;
+        height: auto;
+        margin: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 15px rgb(58, 166, 185);
+    }
+
+    .soporte10bis{
+        width: 40%;
+        height: auto;
+        margin: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 15px rgb(58, 166, 185);
+    }
+
+    .soporte13{
+        width: 40%;
+        height: auto;
+        margin: 25px;
+        border-radius: 15px;
+        box-shadow: 3px 3px 15px rgb(58, 166, 185);
+    }

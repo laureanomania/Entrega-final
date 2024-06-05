@@ -1,0 +1,221 @@
+.contercards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.tarjeta1 {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+}
+
+.tarjeta2 {
+    width: 325px;
+    background-color:rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    
+
+}
+
+.tarjeta3 {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+}
+
+.tarjeta1 img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.tarjeta2 img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.tarjeta3 img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+}
+
+.tarjeta1 img:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta2 img:hover{
+    transform: scale(1.1);
+}
+
+.tarjeta3 img:hover{
+    transform: scale(1.1);
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.ender {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+    
+}
+
+.delta {
+    width: 325px;
+    background-color:rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+    
+
+}
+
+.corexy {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+}
+
+.ender img{
+    width: 60%;
+    height: auto;
+    transition: all 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.delta img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.corexy img{
+    width: 60%;
+    height: auto;
+    transition: all 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.ender:hover{
+    background-color:rgb(3, 174, 210);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+
+}
+
+.delta:hover {
+    background-color: rgb(179, 226, 167);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.corexy:hover{
+    background-color:rgb(138, 205, 215);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.resina {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+    
+}
+
+.fusionpolvo {
+    width: 325px;
+    background-color:rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+    
+
+}
+
+.impresionmetal {
+    width: 325px;
+    background-color: rgb(254, 239, 173);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px black;
+    margin: 20px;
+    transition: all 400ms ease;
+}
+
+.resina img{
+    width: 60%;
+    height: auto;
+    transition: all 0.3s;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.fusionpolvo img{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    transition: all 0.3s;
+}
+
+.impresionmetal img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+.resina:hover{
+box-shadow: 5px 5px 20px rgb(255, 144, 188);
+transform: translateY(-3%);
+}
+.fusionpolvo:hover{
+box-shadow: 5px 5px 20px rgb(116, 105, 182);
+transform: translateY(-3%);
+}
+.impresionmetal:hover{
+box-shadow: 5px 5px 20px rgb(176, 97, 97);
+transform: translateY(-3%);
+    }
